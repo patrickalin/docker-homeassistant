@@ -1,3 +1,7 @@
 homeassistant/gpmpd.conf
 homeassistant/phue.conf
 homeassistant/secrets.yaml
+homeassistant/.uuid
+homeassistant/icloud
+homeassistant/nest.conf
+homeassistant/tts
