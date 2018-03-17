@@ -1,0 +1,4 @@
+  name: Thuin
+  latitude: !secret latitude_thuin
+  longitude: !secret longitude_thuin
+  icon: mdi:security-home
