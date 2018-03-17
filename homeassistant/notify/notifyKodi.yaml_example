@@ -1,0 +1,6 @@
+name: kodi
+platform: kodi
+host: !secret kodi_ip
+port: !secret kodi_port
+username: !secret kodi_username
+password: !secret kodi_password
