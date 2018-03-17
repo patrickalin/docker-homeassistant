@@ -1,4 +1,15 @@
 #ajoute des sensors avec des valeurs
+#sensor.owm_cloud_coverage    75%
+#sensor.owm_condition    légères chutes de neige
+#sensor.owm_forecast    légères chutes de neige
+#sensor.owm_humidity    86 %
+#sensor.owm_pressure    1001 mbar
+#sensor.owm_rain    not raining
+#sensor.owm_snow    not snowing
+#sensor.owm_temperature    -1.6 °C
+#sensor.owm_wind_bearing    60 °
+#sensor.owm_wind_speed    9.8 m/s
+
 platform: openweathermap
 api_key: !secret openweather_key
 forecast: on
