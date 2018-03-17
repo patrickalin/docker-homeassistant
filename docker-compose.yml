@@ -1,24 +1,25 @@
-version: '3.2'
+version: '3.5'
 
 services:
   homeassistant:
-     image: homeassistant/home-assistant:0.49
-     container_name: homeassistant
-     ports:
-        - "8123:8123"
-     labels:
+    image: registry.services.alin.be/homeassistant-alin:v1
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 200M
+      restart_policy:
+        condition: on-failure
+      labels:
+        - traefik.port=8123
         - traefik.frontend.rule=Host:homeassistant.services.alin.be
         - traefik.backend=homeassistant
         - traefik.frontend.entryPoints=http,https
-     volumes:
-        - ./config:/config 
-        - /etc/localtime:/etc/localtime:ro
-     networks:
-        - web
-     devices:
-        - /dev/snd:/dev/snd
+    volumes:
+        - ./homeassistant:/config
 
 networks:
-  web:
+  default:
     external:
-      name: traefik_webgateway
+      name: traefik-net

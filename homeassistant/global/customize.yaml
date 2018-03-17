@@ -1,0 +1,36 @@
+    sensor.skythuin_temperature:
+      friendly_name: "Temp"
+    binary_sensor.skythuin_rain:
+      friendly_name: "Pluie"
+    sensor.skythuin_humidity:
+      friendly_name: "Humidité"
+    sensor.skythuin_luminance:
+      friendly_name: "Luminosité"
+    sensor.skythuin_uvindex:
+      friendly_name: "UV"
+    sensor.skythuin_voltage:
+      friendly_name: "Batterie"
+    sensor.yr_cloudiness:
+      friendly_name: "Nuageux"
+    sensor.yr_high_clouds:
+      friendly_name: "Haut nuage"
+    sensor.yr_medium_clouds:
+      friendly_name: "Moyen nuage"
+    sensor.yr_low_clouds:
+      friendly_name: "Bas nuage"
+    sensor.yr_fog:
+      friendly_name: "Brouillard"
+    sensor.yr_humidity:
+      friendly_name: "Humidité"
+    sensor.yr_precipitation:
+      friendly_name: "Pluie"
+    sensor.yr_pressure:
+      friendly_name: "Pression"
+    sensor.yr_symbol:
+      friendly_name: "Etat"
+    sensor.yr_temperature:
+      friendly_name: "Temp"
+    sensor.yr_wind_direction:
+      friendly_name: "Vent"
+    sensor.yr_wind_speed:
+      friendly_name: "Vitesse vent"
