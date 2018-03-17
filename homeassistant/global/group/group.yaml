@@ -89,6 +89,12 @@
       - device_tracker.mrrobot
       - device_tracker.trinity
       - device_tracker.samsung
+      - device_tracker.camegos
+      - device_tracker.ghome
+      - device_tracker.hue
+      - device_tracker.morpheus
+      - device_tracker.nest
+      - device_tracker.trinity
       - persistent_notification.occupants
   lumiere:
     name: lumiere

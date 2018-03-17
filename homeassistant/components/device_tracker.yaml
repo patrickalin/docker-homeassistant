@@ -1,0 +1,21 @@
+- platform: ping
+  hosts:
+      macbook:  !secret macbook_ip
+      trinity:  !secret trinity_ip
+      morpheus: !secret morpheus_ip
+      samsung:  !secret samsung_ip
+      hue:      !secret hue_ip
+      ghome:    !secret ghome_ip
+      camegos:  !secret camegos_ip
+      nest:     !secret nest_ip
+      port-pa:  !secret port-pa_ip
+      tv:       !secret samsungtv_ip
+# 2 Factor Authentication is the improved version of 2 Steps Authentication, this is still not supported by the pyicloud library.
+#- platform: icloud
+#  username: !secret icloud_email
+#  password: !secret icloud_password
+#  account_name: Patrick
+# Scan the newtwork
+- platform: nmap_tracker
+  home_interval: 60
+  hosts: 192.168.10.0/25

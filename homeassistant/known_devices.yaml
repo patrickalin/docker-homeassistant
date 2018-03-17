@@ -1,0 +1,109 @@
+macbook:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Macbook Air
+  picture: https://ioccasion.fr/img/macbook_air_13-inch.png
+  track: true
+  vendor: Apple
+  gravatar:
+
+apoc:
+  hide_if_away: false
+  mac:
+  name: Apoc NUC
+  picture: http://my-live-03.slatic.net/p/intel-nuc-5i5ryh-core-i5-2-7ghz-mini-pc-wireless-ac-bluetooth-barebone-2519-1532411-1-gallery.jpg
+  track: true
+  vendor: Intel
+  gravatar:
+
+honor:
+  hide_if_away: false
+  mac: D4:40:F0:31:97:8F
+  name: GSM Honor
+  picture: https://www.compareprix.in/images/resizeimages/product/128/huawei-honor-holly-3-large.jpeg?v=72
+  track: true
+  vendor: Honor
+  gravatar:
+
+samnsung:
+  hide_if_away: false
+  mac: DC:66:72:CC:9B:41
+  name: GSM Samsung A5
+  picture: https://www.compareprix.in/images/resizeimages/product/128/huawei-honor-holly-3-large.jpeg?v=72
+  track: true
+  vendor: Samsung
+  gravatar:
+
+macbookairdepatrick:
+  hide_if_away: false
+  mac:
+  name: MacBook Air de Patrick
+  picture:
+  track: true
+  vendor:
+  gravatar: patrickalin@gmail.com
+
+trinity:
+  hide_if_away: false
+  icon: 
+  mac:
+  name: Synology Trinity
+  picture: https://www.file-extensions.org/imgs/app-icon/128/9541/synology-diskstation-manager-icon.png
+  track: true
+  vendor: Synology
+  gravatar: patrickalin@gmail.com
+
+morpheus:
+  hide_if_away: false
+  icon:
+  mac:
+  name: morpheus
+  picture:
+  track: true
+  vendor:
+
+hue:
+  hide_if_away: false
+  icon:
+  mac:
+  name: hue
+  picture:
+  track: true
+  vendor:
+
+camegos:
+  hide_if_away: false
+  icon:
+  mac:
+  name: camegos
+  picture:
+  track: true
+  vendor:
+
+ghome:
+  hide_if_away: false
+  icon:
+  mac: 48:d6:d5:ed:24:5e
+  name: ghome
+  picture: https://www.media-rdc.com/medias/c736ca1a679230faaf193f11eda87c93/p_50x50/c4726b89f38136e9b395d4a1ead13ac6.jpg
+  track: true
+  vendor:
+
+samsung:
+  hide_if_away: false
+  icon:
+  mac:
+  name: samsung
+  picture:
+  track: true
+  vendor:
+
+nest:
+  hide_if_away: false
+  icon:
+  mac: 18:b4:30:13:35:0a
+  name: nest
+  picture: https://tshop.r10s.com/795/21f/071f/306a/600f/f7f8/df80/11a8e79736c454448095d5.jpg?_ex=128x128
+  track: true
+  vendor: google
