@@ -1,0 +1,3 @@
+#Cadre avec une courbe de tempétature, prend la longitude et lattitude du fichier configuration
+platform: openweathermap
+api_key: !secret openweather_key

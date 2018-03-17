@@ -1,0 +1,18 @@
+platform: template
+sensors:
+       sun_state:
+         value_template: '{% if is_state("sun.sun", "above_horizon") %}Jour{% else %}Nuit{% endif %}'
+         friendly_name: 'Jour/Nuit (sun)'
+       sky_sun_state:
+         value_template: '{% if is_state("binary_sensor.skythuin_night", "on") %}Nuit{% else %}Jour{% endif %}'
+         friendly_name: 'Jour/Nuit (sky)'
+#       sunrise:
+#         value_template: '{{ states.sun.sun.attributes.next_rising.strptime("%H:%M-%S") }}'
+       solar_angle:
+         value_template: '{{ "%+.1f"|format(states.sun.sun.attributes.elevation) }}'
+         friendly_name: 'Horizon'
+         unit_of_measurement: '°'         
+       skythuin_pressure_hpa:
+         value_template: '{{ states.sensor.skythuin_pressure.state | multiply(34.678) }}'
+         unit_of_measurement: 'hPa'
+         friendly_name: 'Pression' 

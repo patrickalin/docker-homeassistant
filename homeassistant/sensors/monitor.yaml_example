@@ -1,0 +1,7 @@
+#pas utilse quand c'est un container
+platform: systemmonitor
+resources:
+      - type: disk_use_percent
+        arg: /
+      - type: memory_free
+      - type: load_5m
