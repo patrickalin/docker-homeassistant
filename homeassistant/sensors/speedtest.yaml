@@ -1,0 +1,16 @@
+# Test Everyday at 12:00AM, 6:00AM, 12:00PM, 6:00PM:
+#sensor.speedtest_download    22.48 Mbit/s
+#sensor.speedtest_ping    35.19 ms
+#sensor.speedtest_upload    3.36 Mbit/s
+
+platform: speedtest
+minute: 0
+hour:
+      - 0
+      - 6
+      - 12
+      - 18
+monitored_conditions:
+      - ping
+      - download
+      - upload

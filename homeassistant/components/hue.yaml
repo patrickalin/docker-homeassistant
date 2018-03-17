@@ -1,0 +1,4 @@
+# Philips Hue Light
+###################
+platform: hue
+#host: !secret hue_ip
