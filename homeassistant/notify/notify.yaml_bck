@@ -1,0 +1,39 @@
+#########GROUP NOTIFY
+  - name: textnoti
+    platform: group
+    services:
+# message on the page
+#      - service: persistent_notification.create
+#        data:
+#          message: "Sensor value greater than 10"
+# message by mail
+      - service: mail
+        data:
+            title: 'Intruder alert'
+            message: 'Intruder alert at apartment!!'
+# message to kody
+      - service: kodi
+        data:
+          title: "Home Assistant"
+          message: "Message to KODI from Home Assistant!"
+          data:
+            displaytime: 20000
+            icon: "warning"
+# message to browser
+      - service: html5
+        data:
+          title: "Front door"
+          message: "The front door is open"
+          data:
+              my-custom-parameter: "front-door-open"
+# message to nma
+      - service: nma
+        data:
+            title: 'Intruder alert'
+            message: 'Intruder alert at apartment!!'
+# message to nma
+      - service: bullet
+        data:
+            title: 'Intruder alert'
+            message: 'Intruder alert at apartment!!'
+

@@ -1,0 +1,3 @@
+platform: synology_chat
+name: synochat
+resource: !synochat

@@ -1,0 +1,14 @@
+#########################
+# Configuration for GMail
+#########################
+
+name: mail
+platform: smtp
+server: smtp.gmail.com
+port: 587
+timeout: 15
+sender: !secret gmail_sender
+starttls: true
+username: !secret gmail_login
+password: !secret gmail_password
+recipient: !secret gmail_sender
