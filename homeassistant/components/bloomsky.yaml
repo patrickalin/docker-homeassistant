@@ -1,0 +1,4 @@
+#
+# Bllomsky component station météo
+#
+api_key: !secret bloomsky_key
