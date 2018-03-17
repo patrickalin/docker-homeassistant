@@ -1,6 +1,8 @@
+#ajoute des sensors avec des valeurs
 platform: openweathermap
 api_key: !secret openweather_key
 forecast: on
+language: fr
 monitored_conditions:
       - weather
       - temperature
