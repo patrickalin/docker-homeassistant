@@ -1,0 +1,7 @@
+#
+# Notify my android
+# https://notifymyandroid.appspot.com/
+#
+name: nma
+platform: nma
+api_key: !secret nma_key
