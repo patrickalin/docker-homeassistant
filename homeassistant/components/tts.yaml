@@ -1,0 +1,11 @@
+  - platform: google
+    language: 'fr'
+    base_url: !secret homeassistant_url
+    cache: true
+    cache_dir: /config/tts/
+    time_memory: 300
+  - platform: voicerss
+    api_key: !secret voicerss_key
+    language: 'fr-fr'
+    codec: mp3
+    format: 8khz_8bit_mono
