@@ -1,0 +1,6 @@
+# use binary_sensor in condition automation
+# give ON or OFF
+platform: bloomsky
+monitored_conditions:
+      - Night
+      - Rain
