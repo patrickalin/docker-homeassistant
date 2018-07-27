@@ -1,4 +1,4 @@
-version: '3.5'
+version: '3.6'
 
 services:
   homeassistant:
@@ -7,8 +7,8 @@ services:
       replicas: 1
       resources:
         limits:
-          cpus: "0.5"
-          memory: 200M
+          cpus: "0.4"
+          memory: 190M
       restart_policy:
         condition: on-failure
       labels:
@@ -16,6 +16,7 @@ services:
         - traefik.frontend.rule=Host:homeassistant.services.alin.be
         - traefik.backend=homeassistant
         - traefik.frontend.entryPoints=http,https
+        - traefik.frontend.redirect.entryPoint=https
     volumes:
         - ./homeassistant:/config
 
